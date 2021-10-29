@@ -17,10 +17,10 @@ img('assets/well.png', 'fixed', 500, 425)
 
 
 
-function newItem (src, position, left, bottom) {
-    let image = img (src, position, left, bottom)
+function newItem(src, position, left, bottom) {
+    let image = img(src, position, left, bottom)
 
-    image.addEventListener('click', function() {
+    image.addEventListener('click', function () {
         image.remove()
     })
 }
