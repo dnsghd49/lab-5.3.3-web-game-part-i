@@ -48,7 +48,7 @@ sword.style.bottom = '405px'
 document.body.append(sword)
 
 let shield = document.createElement('img')
-shield.src = 'assets/sheild.png'
+shield.src = 'assets/shield.png'
 shield.style.position = 'fixed'
 shield.style.left = '165px'
 shield.style.bottom = '185px'
